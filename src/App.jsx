@@ -7,6 +7,7 @@ import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
+import MyComponent from './MyComponent.jsx'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Feed></Feed>
           <ProfilePicture></ProfilePicture>
           <Button></Button>
+          <MyComponent></MyComponent>
           <>
               {fruits.length > 0 ? <List items={fruits} category="Fruits"></List> : null}
               {vegetables.length > 0 && <List items={vegetables} category="Vegetables"></List>}
