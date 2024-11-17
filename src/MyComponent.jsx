@@ -42,6 +42,8 @@ function MyComponent(){
         setShipping(event.target.value)
     }
 
+    
+
     return(<div>
 
         <p>Nome: {name}</p>
