@@ -19,7 +19,7 @@ function ListComponent(){
     }
 
     return (<>
-            <h2></h2>
+            <h2>Lista</h2>
             <ul>
                 {items.map((items, index) => 
                 <li key={index} onClick={() =>handleRemoveItems(index)}>
