@@ -12,6 +12,7 @@ import Counter from './Counter.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import CarComponent from './CarComponent.jsx'
 import ListComponent from './ListComponent.jsx'
+import ToDoList from './ToDoList.jsx'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           <Header></Header>
           <Feed></Feed>
           <ProfilePicture></ProfilePicture>
+          <ToDoList></ToDoList>
           <ListComponent></ListComponent>
           <CarComponent></CarComponent>
           <Button></Button>
